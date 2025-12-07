@@ -1,20 +1,66 @@
-def cal_exp(expenses):
-    '''
-    :param expenses:
-    :return:
-    '''
-    total = 0
-    for expense in expenses:
-        total+=expense
-    return total
+def calexp(expense):
+    sum=0
+    for n in expense:
+        sum+=n
+    return sum
 
-expense_rushi = [20,84,12,64,99]
-expense_adi = [95,42,62,4,56]
 
-total_ex_rushi = cal_exp(expense_rushi)
-total_ex_adi = cal_exp(expense_adi)
 
-print(f"Total expense of Rushi is {total_ex_rushi}")
-print(f"Total expense of Adi is {total_ex_adi}")
+expenseRushi = [56,47,8,95,56]
+expenseAdi = [98,48,6,2,369,4]
 
-help(cal_exp)
+total_exp_rushi = calexp(expenseRushi)
+total_exp_Adi = calexp(expenseAdi)
+
+print(total_exp_rushi, total_exp_Adi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def cal_exp(expenses):
+#     '''
+#     :param expenses:
+#     :return:
+#     '''
+#     total = 0
+#     for expense in expenses:
+#         total+=expense
+#     return total
+#
+# expense_rushi = [20,84,12,64,99]
+# expense_adi = [95,42,62,4,56]
+#
+# total_ex_rushi = cal_exp(expense_rushi)
+# total_ex_adi = cal_exp(expense_adi)
+#
+# print(f"Total expense of Rushi is {total_ex_rushi}")
+# print(f"Total expense of Adi is {total_ex_adi}")
+
+# help(cal_exp)
